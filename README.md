@@ -207,5 +207,5 @@ go test -timeout=2h -bench=.
 
 You can bench specific frameworks only by using a regular expression as the value of the `bench` parameter:
 ```bash
-go test -bench="Martini|Gin|HttpMux"
+go test -bench="Bone|Gorilla|Pat|HttpMux"
 ```
